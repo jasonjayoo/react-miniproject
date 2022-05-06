@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Personal React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple Task Tracker
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## Description: 
 
-### `npm start`
+A Task Tracker built with React.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br> 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents:
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Deployed](#deployed)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [How](#howtocontribute)
+- [Tests](#tests)
+- [Details](#details)
+- [Github](#github)
+- [URL](#url)
+- [Author](#author)
+- [Questions](#questions)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployed
+<br>
+** Go to <a href="https://jasonjayoo.github.io/react-miniproject/" target="_blank">React Task Tracker</a> In order to view My React Task Tracker
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage: 
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Screenshot](./src/assets/Screenshot.png)  "Deployed Landing Page"
+<img src="./src/assets/Screenshot.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Online tutorial was a great help in the development of this basic react application
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License:
+<br>
+    -  MIT License - Copyright (c) 2022 Jason Yoo
+<br>
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Badges:
+<br>
+    - UCI Full Stack Bootcamp Graduate circa 2022
+<br>
+<br>
 
-### Code Splitting
+## Features:
+    - Dynamic single page application built with React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## How to Contribute:
+<br>
+    - My github repository is publically viewable. If you would to contribute to the webpage please email me at my link on the webpage with you github username and I will add you as a contributor on the repo. 
+<br>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Github (Github Repository):
 
-### Making a Progressive Web App
+Click [here](https://github.com/jasonjayoo/react-miniproject) to go to my React Task Tracker Github Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
+## URL (Published Webpage):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<a href="https://jasonjayoo.github.io/react-miniproject/" target="_blank">My-React-Task-Tracker</a>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author:
+                         Jason Yoo
+  
 
-### `npm run build` fails to minify
+## Questions:
+  For any questions regarding this application, you may reach me directly at jasonjayoo@outlook.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).
+
+
+
+
+
+
