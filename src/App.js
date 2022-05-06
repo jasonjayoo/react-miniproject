@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Component, useState } from "react";
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
@@ -64,3 +64,16 @@ const App = () => {
 };
 
 export default App;
+
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <header className="App-header">
+
+//         </header>
+//       </div>
+//     )
+//   }
+// }

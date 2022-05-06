@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Component } from "react";
 
 const Button = ({ color, text, onClick }) => {
 
@@ -24,3 +25,12 @@ Button.propTypes = {
 };
 
 export default Button;
+
+// class App extends Component {
+//   render() {
+//     return {
+//       <div className="App">
+      
+//     }
+//   }
+// }
