@@ -1,6 +1,12 @@
 import { FaTimes } from "react-icons/fa";
+import dayjs from "dayjs";
 
 const Task = ({ task, onDelete, onToggle }) => {
+
+  // const formattedDay = task.day instanceof Date ? dayjs(task.day).format('MMMM D, YYYY h:mm A') : task.day;
+  const formattedDay = dayjs(task.day).isValid() ? dayjs(task.day).format('MMMM D, YYYY') + ' - ' + dayjs(task.day).format('h:mm A') : task.day;
+
+
   return (
     <div className={`task ${task.reminder ? "reminder" : ""}`} onDoubleClick={() => onToggle(task.id)}>
       <h3>
@@ -10,7 +16,7 @@ const Task = ({ task, onDelete, onToggle }) => {
           onClick={() => onDelete(task.id)}
         />
       </h3>
-      <p>{task.day}</p>
+      <p>{formattedDay}</p>
     </div>
   );
 };

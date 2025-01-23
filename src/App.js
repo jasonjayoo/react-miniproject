@@ -11,22 +11,23 @@ const App = () => {
     {
       id: 1,
       text: "Doctors Appointment",
-      day: "May 2nd at 11:15am",
+      day: "January 22, 2025 12:15 PM",
       reminder: true,
     },
     {
       id: 2,
       text: "Zoom Meeting",
-      day: "May 2nd at 6:30pm",
+      day: "January 23, 2025 3:30 PM",
       reminder: true,
     },
     {
       id: 3,
       text: "Yoga",
-      day: "May 2nd at 10:30pm",
+      day: "January 25, 2025 6:30 PM",
       reminder: false,
     },
   ];
+  
 
   const [tasks, setTasks] = useState([]);
 
