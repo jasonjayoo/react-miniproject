@@ -1,11 +1,13 @@
-import { Component, useState } from "react";
+import { Component, useState, useEffect } from "react";
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false);
-  const [tasks, setTasks] = useState([
+
+  // Default dummy data
+  const dummyData = [
     {
       id: 1,
       text: "Doctors Appointment",
@@ -24,7 +26,28 @@ const App = () => {
       day: "May 2nd at 10:30pm",
       reminder: false,
     },
-  ]);
+  ];
+
+  const [tasks, setTasks] = useState([]);
+
+  // Load tasks from localStorage and merge with dummy data
+  useEffect(() => {
+    const storedTasks = JSON.parse(localStorage.getItem("tasks")) || [];
+    // If no tasks in localStorage, use dummy data
+    if (storedTasks.length === 0) {
+      setTasks(dummyData);
+      localStorage.setItem("tasks", JSON.stringify(dummyData));
+    } else {
+      setTasks(storedTasks);
+    }
+  }, []);
+
+  // Save tasks to localStorage whenever tasks state changes
+  useEffect(() => {
+    if (tasks.length > 0) {
+      localStorage.setItem("tasks", JSON.stringify(tasks));
+    }
+  }, [tasks]);
 
   // Add Task
   const addTask = (task) => {
@@ -64,16 +87,3 @@ const App = () => {
 };
 
 export default App;
-
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-
-//         </header>
-//       </div>
-//     )
-//   }
-// }

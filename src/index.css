@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #000;
 }
 
 .container {
@@ -15,9 +16,10 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 14px solid steelblue;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
 }
 
 .header {
@@ -73,6 +75,7 @@ body {
 
 .task {
   background: #f4f4f4;
+  border: 2px solid steelblue;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
